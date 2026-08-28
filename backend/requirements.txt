@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+supabase
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+redis
+email-validator
+slowapi
+bcrypt==4.0.1
+-e ../ai-engine
